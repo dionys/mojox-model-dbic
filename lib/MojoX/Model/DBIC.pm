@@ -5,6 +5,9 @@ use Mojo::Base 'MojoX::Model';
 use Mojo::Loader ();
 
 
+our $VERSION = '0.01';
+
+
 has schema_class => undef;
 
 has connect_info => sub { {} };
