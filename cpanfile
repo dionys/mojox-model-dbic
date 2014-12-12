@@ -1,3 +1,3 @@
 requires 'DBIx::Class';
 requires 'Mojolicious';
-requires 'Mojolicious::Plugin::Model';
+requires 'MojoX::Model';
