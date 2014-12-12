@@ -14,13 +14,13 @@ WriteMakefile(
 	LICENSE          => 'perl',
 	MIN_PERL_VERSION => '5.010001', # like Mojolicious
 	BUILD_REQUIRES   => {
-#		'Test::Deep'                 => 0,
-		'Test::More'                 => 0,
+#		'Test::Deep'   => 0,
+		'Test::More'   => 0,
 	},
 	PREREQ_PM        => {
-		'DBIx::Class'                => 0,
-		'Mojolicious'                => 0,
-		'Mojolicious::Plugin::Model' => 0,
+		'DBIx::Class'  => 0,
+		'Mojolicious'  => 0,
+		'MojoX::Model' => 0,
 	},
 	META_MERGE       => {
 		resources => {
